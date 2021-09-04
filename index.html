@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajjad Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Charm:wght@700&family=Cute+Font&family=Italianno&family=Tangerine:wght@700&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Philosopher&family=Scheherazade&family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <style>
+        #search{
+            width: 230px;
+            height: 19px;
+            padding-left: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        #button1{
+            margin: 8px 0px 0px 10px;
+            color: rgb(71, 71, 71);
+            background-color: #d5e0f3;
+            border: none;
+            border-radius: 3px;
+            font-family: 'cute';
+            font-size: 15px;
+        }
+        #button1:hover{
+            background-color: #9eb3d8;
+        }
+
+        .center{
+            position: relative;
+        }
+
+        #button2{
+            height: 42px;
+            width: 120px;
+            font-size: 22px;
+            font-family: 'cute';
+            color: rgb(251, 252, 247);
+            background-color: #677a9b;
+            border: none;
+            border-radius: 4px;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: 30px;
+            margin-left: -50px;
+            padding: 0px 0px;
+        }
+        #button2:hover{
+            color: #dde4f0;
+            background-color: #3d5379;
+        }
+
+        .navbar li{
+            float: left;
+            margin: 07px 0px 24px 170px;
+            list-style: none;
+            padding: 0px 0px 0px 0px;
+
+        }
+
+        .headings{
+            border:#677a9b;
+            border-width: 100%;
+            border-style: solid;
+            background-color:#677a9b ;
+            box-shadow: 0px 2px 5px black;
+        }
+
+        ul{
+            margin: 31px 0px 4px 360px;
+            overflow: auto;
+        
+        }
+
+        body{
+            
+            background-color: #dcdefc;
+          
+            margin: 0px;
+            padding: 0px;
+            overflow: scroll;
+        }
+      /*  #background{
+            
+            width: 100%;
+            height: 100%;
+        }*/
+
+         .heading1{
+             color: #677a9b;
+             text-align: center;
+             font-size: 30px;
+             font-family: 'charm';
+         }
+
+         .heading2{
+             color: #677a9b;
+             text-align: center;
+             font-size: 70px;
+             font-family: 'tangerine';
+             -webkit-text-stroke: 1px #677a9b;
+             word-spacing: 19px;
+             text-shadow: 2px 1px 3px rgb(22, 21, 21);
+             margin: -15px 0px 0px 0px;
+             /*letter-spacing: 10px;*/
+         }
+         #profile{
+             height: 150px;
+             width: 150px;
+             display: block;
+             margin: auto;
+             margin-top: 55px;
+             border: 5px #748bb3;
+             border-style: solid;
+             border-radius: 100px;
+             box-shadow: 0px 4px 8px rgb(36, 43, 51);
+         }
+
+         a:link{
+             color:#e5ebf7;
+             text-decoration: none;
+             font-size: 20px;
+             font-family: 'cute';
+         }
+
+         a:hover{
+             color: #9eb3d8;
+         }
+
+         .firstLine{
+             width: 300px;
+             height: 0px;
+             border-bottom: 1px;
+             border-style: solid;
+             border-color: #a1abbeea;
+             margin-top: 15px;
+         }
+
+         .paragraph1{
+             font-size: 24px;
+             color: #4e5c6e;
+             font-family: 'Scheherazade';
+             width: 1000px;
+             margin: 40px 0px 0px 463px;
+         }
+
+         #logo{
+             height: 190px;
+             width: 235px;
+             margin: -80px 0px 0px -33px;
+             padding: 0px 0px 0px 0px;
+             overflow: hidden;
+             position: absolute;
+             filter: contrast(100%);
+             
+         }
+
+         .content span{
+
+            /* float: left; */
+            margin: 130px 244px 0px 253px;
+            /* padding: 10px 0px 0px 100px; */
+        
+         }
+
+         #design{
+
+            border: 5px solid rgb(97, 126, 170);
+            border-top-width: 60px;
+            border-radius: 20px;
+           /*      
+            height: 330px;
+            width: 400px; */
+            max-height: 300px;
+            max-width: 430px;
+            
+         }
+
+         #develope{
+
+            border: 5px solid rgb(73, 125, 146);
+            border-top-width: 60px;
+            border-radius: 20px;
+            max-height: 300px;
+            max-width: 430px;
+         }
+
+         .img1{
+             float: left;
+         }
+
+         .img2{
+             float: right;
+         }
+
+           /* .box{
+
+            position: absolute;
+            color: rgb(253, 255, 254);
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         } */
+
+         #box1{
+
+            padding: 0px 0px 0px 87px;
+         }
+
+         #box2{
+
+            padding: 0px 0px 0px 79px;
+         }
+
+         .follow{
+
+            text-align: center;
+            position: absolute;
+            margin: 580px 0px 0px -25px;
+            font-family: 'fredoka one';
+            font-size: 20px;
+            color:#6c6d77 ;
+         }
+
+         .icon{
+
+            margin: 0px 0px 0px 618px;
+            padding-bottom: 100px;
+        
+         }
+
+         .icon img{
+
+            float: left;
+            margin: 185px 0px 100px 75px;
+            height: 45px;
+            width: 45px;
+            opacity: 60%;
+
+         }
+
+         .icon1:hover{
+
+            background-color: rgb(255, 255, 255);
+            opacity: 80%;
+
+         }
+         #icon2:hover{
+
+            border-radius: 100%;
+         }
+
+         #second_line{
+
+            width: 200px;
+             height: 0px;
+             border-bottom: 2px;
+             border-style: solid;
+             border-color: #585965;
+             margin-top: 15px;
+             margin: 639px 0px 0px 865px;
+             position: absolute;
+             opacity: 60%;
+         }
+
+         a.projectLink{
+
+            position: absolute;
+             text-decoration: none;
+             color: rgb(253, 255, 254);
+             font-size: 25px;
+             font-weight: 700;
+             font-family: 'cute';
+             padding-top: 15px;
+
+         }
+
+         .projectLink:hover{
+
+            color: rgb(202, 202, 202);
+         }
+
+
+    </style>
+</head>
+
+<body>
+
+    <header class="headings">
+    
+        <nav>
+            
+            <img id="logo" src="20210902_002235.png" alt="Logo">
+            <ul class="navbar">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="project.html">Project</a>
+                </li>
+                <li>
+                    <a href="about.html">About  Me</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <input id="search" type="text" placeholder="Search...">
+                </li>
+                
+                <button id="button1"> Search</button>
+        
+            </ul>
+        </nav>
+    
+    </header>
+     
+    <img id="profile" src="profile4.jpg" alt="Myimage">
+
+<div>
+
+    <h3 class="heading1">Welcome to</h3>
+   <h1 class="heading2">Sajjad's Portfolio</h1>
+
+</div>
+
+<hr class="firstLine">
+
+<div>
+
+    <p class="paragraph1">Hey! I'm Sajjad, a proffessional Web Developer & Graphic Designer. Although I'm new in this sector, I've decent knowledge. I've done many beautiful project for my Portfolio. And I wanna invite you there. Point to be notted that I'm also a Content Writter. You can see some sample while visiting here. If you like my work then feel free to hire me for your project! </p>
+
+</div>
+
+<div class="center">
+
+    <button id="button2">Hire Me</button>
+
+</div>
+
+<div class="content">
+   <span class="img1">
+       
+       <h3 id="box1" class="box"><a class="projectLink" href=""> Graphic Design Projects</a></h3>
+       <img id="design" src="designer-Recovered2.png" alt="content_image">
+   </span>
+
+<span class="img2">
+    <h3 id="box2" class="box"><a class="projectLink" href=""> Web Development Projects</a></h3>
+    <img id="develope" src="developer (3).png" alt="">
+
+</span>
+
+</div>
+
+<div>
+
+    <span class="follow">
+        <h3>Follow Me </h3>
+    </span>
+    <hr id="second_line">
+
+    <div class="icon">
+
+                <a href="">
+                    <img class="icon1" src="facebook_icon.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon1" src="linkedin_icon.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon1" src="pinterest_icon.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon1" id="icon2" src="whatsapp_icon.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon1" id="icon2" src="mail_icon.png" alt="">
+                </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
